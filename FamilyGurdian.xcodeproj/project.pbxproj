@@ -15,6 +15,9 @@
 		B0F010151B0D935300EB1ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F010141B0D935300EB1ED5 /* Images.xcassets */; };
 		B0F010181B0D935300EB1ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F010161B0D935300EB1ED5 /* LaunchScreen.xib */; };
 		B0F010241B0D935300EB1ED5 /* FamilyGurdianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010231B0D935300EB1ED5 /* FamilyGurdianTests.m */; };
+		B0F010331B0D93C300EB1ED5 /* QuickContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */; };
+		B0F010351B0D943F00EB1ED5 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F010341B0D943F00EB1ED5 /* Menu.plist */; };
+		B0F010381B0D950D00EB1ED5 /* QuickContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		B0F0101D1B0D935300EB1ED5 /* FamilyGurdianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyGurdianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F010221B0D935300EB1ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F010231B0D935300EB1ED5 /* FamilyGurdianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyGurdianTests.m; sourceTree = "<group>"; };
+		B0F0102E1B0D93C300EB1ED5 /* QuickContactsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickContactsAppDelegate.h; sourceTree = "<group>"; };
+		B0F010301B0D93C300EB1ED5 /* QuickContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickContactsViewController.h; sourceTree = "<group>"; };
+		B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickContactsViewController.m; sourceTree = "<group>"; };
+		B0F010341B0D943F00EB1ED5 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Menu.plist; path = ../Menu.plist; sourceTree = "<group>"; };
+		B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickContactsAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 		B0F00FF81B0D935300EB1ED5 = {
 			isa = PBXGroup;
 			children = (
+				B0F010391B0D951A00EB1ED5 /* QuickContacts */,
 				B0F010031B0D935300EB1ED5 /* FamilyGurdian */,
 				B0F010201B0D935300EB1ED5 /* FamilyGurdianTests */,
 				B0F010021B0D935300EB1ED5 /* Products */,
@@ -122,6 +131,27 @@
 				B0F010221B0D935300EB1ED5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0F0102D1B0D93C300EB1ED5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0102E1B0D93C300EB1ED5 /* QuickContactsAppDelegate.h */,
+				B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */,
+				B0F010301B0D93C300EB1ED5 /* QuickContactsViewController.h */,
+				B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B0F010391B0D951A00EB1ED5 /* QuickContacts */ = {
+			isa = PBXGroup;
+			children = (
+				B0F010341B0D943F00EB1ED5 /* Menu.plist */,
+				B0F0102D1B0D93C300EB1ED5 /* Classes */,
+			);
+			name = QuickContacts;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0F010131B0D935300EB1ED5 /* Main.storyboard in Resources */,
+				B0F010351B0D943F00EB1ED5 /* Menu.plist in Resources */,
 				B0F010181B0D935300EB1ED5 /* LaunchScreen.xib in Resources */,
 				B0F010151B0D935300EB1ED5 /* Images.xcassets in Resources */,
 			);
@@ -228,6 +259,8 @@
 				B0F0100A1B0D935300EB1ED5 /* AppDelegate.m in Sources */,
 				B0F0100D1B0D935300EB1ED5 /* FirstViewController.m in Sources */,
 				B0F010071B0D935300EB1ED5 /* main.m in Sources */,
+				B0F010331B0D93C300EB1ED5 /* QuickContactsViewController.m in Sources */,
+				B0F010381B0D950D00EB1ED5 /* QuickContactsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
