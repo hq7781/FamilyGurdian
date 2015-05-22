@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ENXMoreViewController.h
 //  FamilyGurdian
 //
 //  Created by HongQuan on 2015/05/21.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ENXMoreViewController : UIViewController
 
 
 @end

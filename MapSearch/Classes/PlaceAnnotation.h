@@ -1,7 +1,7 @@
 /*
-     File: QuickContactsAppDelegate.h
- Abstract: The application delegate class used for installing our navigation controller.
-  Version: 1.3
+     File: PlaceAnnotation.h
+ Abstract: Custom pin annotation for display found places.
+  Version: 1.0
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,11 +41,19 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2014 Apple Inc. All Rights Reserved.
+ Copyright (C) 2013 Apple Inc. All Rights Reserved.
  
-*/
+ */
 
-@interface QuickContactsAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+#import <MapKit/MapKit.h>
+
+@interface PlaceAnnotation : NSObject <MKAnnotation>
+
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *subTitle;
+@property (nonatomic, retain) NSURL *url;
+
 @end
+
 
