@@ -83,8 +83,17 @@
 	static dispatch_once_t centerMapFirstTime;
 
 	if ((userLocation.coordinate.latitude != 0.0) && (userLocation.coordinate.longitude != 0.0)) {
+        
+        // Zoom in HONG Added
+        MKCoordinateRegion theRegion = mapView.region;
+        theRegion.span.longitudeDelta /= 40;
+        theRegion.span.latitudeDelta /= 40;
+        [mapView setRegion:theRegion animated: YES];
+        // Zoom in HONG End
+        
 		dispatch_once(&centerMapFirstTime, ^{
 			[self.mapView setCenterCoordinate:userLocation.coordinate animated:YES];
+
 		});
 	}
 	

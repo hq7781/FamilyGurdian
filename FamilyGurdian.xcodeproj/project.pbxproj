@@ -32,6 +32,7 @@
 		B0EE5BD31B0F2115003EC168 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5BC11B0F2115003EC168 /* iTunesArtwork */; };
 		B0EE5BD41B0F2115003EC168 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5BC21B0F2115003EC168 /* iTunesArtwork@2x */; };
 		B0EE5BE01B0F35D6003EC168 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5BDF1B0F35D6003EC168 /* Icon@2x.png */; };
+		B0EE5BFC1B131B54003EC168 /* YMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE5BFB1B131B54003EC168 /* YMapKit.framework */; };
 		B0F010071B0D935300EB1ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010061B0D935300EB1ED5 /* main.m */; };
 		B0F0100A1B0D935300EB1ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010091B0D935300EB1ED5 /* AppDelegate.m */; };
 		B0F0100D1B0D935300EB1ED5 /* ENXMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0100C1B0D935300EB1ED5 /* ENXMoreViewController.m */; };
@@ -47,13 +48,6 @@
 		B0F010BC1B0D973E00EB1ED5 /* PlacemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010451B0D973E00EB1ED5 /* PlacemarkViewController.m */; };
 		B0F010BD1B0D973E00EB1ED5 /* CurrentAddress-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F010461B0D973E00EB1ED5 /* CurrentAddress-Info.plist */; };
 		B0F011001B0D973F00EB1ED5 /* CurrentAddress_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F010AE1B0D973E00EB1ED5 /* CurrentAddress_Main.storyboard */; };
-		B0F011011B0D973F00EB1ED5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B11B0D973E00EB1ED5 /* Icon-72.png */; };
-		B0F011021B0D973F00EB1ED5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B21B0D973E00EB1ED5 /* Icon-Small-50.png */; };
-		B0F011031B0D973F00EB1ED5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B31B0D973E00EB1ED5 /* Icon-Small.png */; };
-		B0F011041B0D973F00EB1ED5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B41B0D973E00EB1ED5 /* Icon-Small@2x.png */; };
-		B0F011051B0D973F00EB1ED5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B51B0D973E00EB1ED5 /* Icon.png */; };
-		B0F011061B0D973F00EB1ED5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B61B0D973E00EB1ED5 /* Icon@2x.png */; };
-		B0F011071B0D973F00EB1ED5 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B0F010B71B0D973E00EB1ED5 /* iTunesArtwork */; };
 		B0F0110E1B0D9AE700EB1ED5 /* QuickContacts-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F0110D1B0D9AE700EB1ED5 /* QuickContacts-Info.plist */; };
 		B0F012091B0D9B5E00EB1ED5 /* MapSearchMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F011141B0D9B5E00EB1ED5 /* MapSearchMapViewController.m */; };
 		B0F0120A1B0D9B5E00EB1ED5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F011161B0D9B5E00EB1ED5 /* MyTableViewController.m */; };
@@ -128,6 +122,7 @@
 		B0EE5BC11B0F2115003EC168 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Images.xcassets/iTunesArtwork; sourceTree = "<group>"; };
 		B0EE5BC21B0F2115003EC168 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Images.xcassets/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		B0EE5BDF1B0F35D6003EC168 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images.xcassets/Icon@2x.png"; sourceTree = "<group>"; };
+		B0EE5BFB1B131B54003EC168 /* YMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YMapKit.framework; path = mapsdk_ios/YMap/YMapKit.framework; sourceTree = "<group>"; };
 		B0F010011B0D935300EB1ED5 /* FamilyGurdian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyGurdian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F010051B0D935300EB1ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F010061B0D935300EB1ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -198,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EE5BFC1B131B54003EC168 /* YMapKit.framework in Frameworks */,
 				B0F012C61B0DA24400EB1ED5 /* MapKit.framework in Frameworks */,
 				B0F012C41B0DA22700EB1ED5 /* UIKit.framework in Frameworks */,
 				B0F012C21B0DA20C00EB1ED5 /* CoreGraphics.framework in Frameworks */,
@@ -267,6 +263,7 @@
 				B0F0110F1B0D9B5E00EB1ED5 /* MapSearch */,
 				B0F0103E1B0D973E00EB1ED5 /* CurrentAddress */,
 				B0F010031B0D935300EB1ED5 /* FamilyGurdian */,
+				B0EE5BFB1B131B54003EC168 /* YMapKit.framework */,
 				B0F012C51B0DA24300EB1ED5 /* MapKit.framework */,
 				B0F012C31B0DA22700EB1ED5 /* UIKit.framework */,
 				B0F012C11B0DA20C00EB1ED5 /* CoreGraphics.framework */,
@@ -540,16 +537,12 @@
 				B0EE5BD41B0F2115003EC168 /* iTunesArtwork@2x in Resources */,
 				B0EE5BC51B0F2115003EC168 /* Icon-72@2x.png in Resources */,
 				B0F012A81B0D9B5F00EB1ED5 /* MapSearch_Default-568h@2x.png in Resources */,
-				B0F011071B0D973F00EB1ED5 /* iTunesArtwork in Resources */,
-				B0F011031B0D973F00EB1ED5 /* Icon-Small.png in Resources */,
 				B0EE5BCB1B0F2115003EC168 /* Icon-Small.png in Resources */,
 				B0F010131B0D935300EB1ED5 /* Main.storyboard in Resources */,
 				B0F012A91B0D9B5F00EB1ED5 /* MapSearch_Default-Landscape.png in Resources */,
 				B0EE5BCF1B0F2115003EC168 /* Icon-Spotlight-40@2x.png in Resources */,
 				B0EE5BAD1B0F1FA7003EC168 /* Icon-60@2x.png in Resources */,
 				B0F0110E1B0D9AE700EB1ED5 /* QuickContacts-Info.plist in Resources */,
-				B0F011061B0D973F00EB1ED5 /* Icon@2x.png in Resources */,
-				B0F011051B0D973F00EB1ED5 /* Icon.png in Resources */,
 				B0F012AC1B0D9B5F00EB1ED5 /* MapSearch_Default-Portrait@2x.png in Resources */,
 				B0EE5BD01B0F2115003EC168 /* Icon-Spotlight-40@3x.png in Resources */,
 				B0EE5B8A1B0ECC9B003EC168 /* FamilyGurdian.strings in Resources */,
@@ -557,7 +550,6 @@
 				B0F012AE1B0D9B5F00EB1ED5 /* MapSearch_Default@2x.png in Resources */,
 				B0EE5B901B0ECE18003EC168 /* QuickContacts.strings in Resources */,
 				B0EE5BC31B0F2115003EC168 /* Icon-60.png in Resources */,
-				B0F011041B0D973F00EB1ED5 /* Icon-Small@2x.png in Resources */,
 				B0EE5BCD1B0F2115003EC168 /* Icon-Small@3x.png in Resources */,
 				B0F012A61B0D9B5F00EB1ED5 /* MapSerch_Main.storyboard in Resources */,
 				B0EE5BC81B0F2115003EC168 /* Icon-76@3x.png in Resources */,
@@ -565,13 +557,11 @@
 				B0F010351B0D943F00EB1ED5 /* Menu.plist in Resources */,
 				B0EE5BAF1B0F1FBA003EC168 /* Icon-60@3x.png in Resources */,
 				B0F010181B0D935300EB1ED5 /* LaunchScreen.xib in Resources */,
-				B0F011021B0D973F00EB1ED5 /* Icon-Small-50.png in Resources */,
 				B0EE5BD11B0F2115003EC168 /* Icon.png in Resources */,
 				B0EE5BC41B0F2115003EC168 /* Icon-72.png in Resources */,
 				B0F010151B0D935300EB1ED5 /* Images.xcassets in Resources */,
 				B0F012AB1B0D9B5F00EB1ED5 /* MapSearch_Default-Portrait.png in Resources */,
 				B0EE5BCC1B0F2115003EC168 /* Icon-Small@2x.png in Resources */,
-				B0F011011B0D973F00EB1ED5 /* Icon-72.png in Resources */,
 				B0F012A71B0D9B5F00EB1ED5 /* MapSearch.strings in Resources */,
 				B0F011001B0D973F00EB1ED5 /* CurrentAddress_Main.storyboard in Resources */,
 				B0F012AA1B0D9B5F00EB1ED5 /* MapSearch_Default-Landscape@2x.png in Resources */,
@@ -760,6 +750,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -796,6 +787,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -807,11 +799,16 @@
 				CODE_SIGN_ENTITLEMENTS = FamilyGurdian/FamilyGurdian.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mapsdk_ios/YMap",
+				);
 				INFOPLIST_FILE = FamilyGurdian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -822,11 +819,16 @@
 				CODE_SIGN_ENTITLEMENTS = FamilyGurdian/FamilyGurdian.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mapsdk_ios/YMap",
+				);
 				INFOPLIST_FILE = FamilyGurdian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
