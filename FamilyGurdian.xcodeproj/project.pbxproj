@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0EE5B871B0ECC5B003EC168 /* QuickContacts_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5B851B0ECC5B003EC168 /* QuickContacts_Main.storyboard */; };
+		B08A6AC41B141A6000E4D774 /* QuickContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A6AC11B141A6000E4D774 /* QuickContactsAppDelegate.m */; };
+		B08A6AC51B141A6000E4D774 /* QuickContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A6AC31B141A6000E4D774 /* QuickContactsViewController.m */; };
+		B08A6AD21B141A9300E4D774 /* QuickContacts.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08A6ACE1B141A9300E4D774 /* QuickContacts.strings */; };
+		B08A6AD31B141A9300E4D774 /* QuickContacts_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08A6AD01B141A9300E4D774 /* QuickContacts_Main.storyboard */; };
 		B0EE5B8A1B0ECC9B003EC168 /* FamilyGurdian.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5B881B0ECC9B003EC168 /* FamilyGurdian.strings */; };
 		B0EE5B901B0ECE18003EC168 /* QuickContacts.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5B921B0ECE18003EC168 /* QuickContacts.strings */; };
 		B0EE5B981B0ECE60003EC168 /* CurrentAddress.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0EE5B9A1B0ECE60003EC168 /* CurrentAddress.strings */; };
@@ -37,18 +40,12 @@
 		B0F0100A1B0D935300EB1ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010091B0D935300EB1ED5 /* AppDelegate.m */; };
 		B0F0100D1B0D935300EB1ED5 /* ENXMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0100C1B0D935300EB1ED5 /* ENXMoreViewController.m */; };
 		B0F010101B0D935300EB1ED5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0100F1B0D935300EB1ED5 /* SecondViewController.m */; };
-		B0F010131B0D935300EB1ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F010111B0D935300EB1ED5 /* Main.storyboard */; };
 		B0F010151B0D935300EB1ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F010141B0D935300EB1ED5 /* Images.xcassets */; };
-		B0F010181B0D935300EB1ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F010161B0D935300EB1ED5 /* LaunchScreen.xib */; };
 		B0F010241B0D935300EB1ED5 /* FamilyGurdianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010231B0D935300EB1ED5 /* FamilyGurdianTests.m */; };
-		B0F010331B0D93C300EB1ED5 /* QuickContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */; };
-		B0F010351B0D943F00EB1ED5 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F010341B0D943F00EB1ED5 /* Menu.plist */; };
-		B0F010381B0D950D00EB1ED5 /* QuickContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */; };
 		B0F010BB1B0D973E00EB1ED5 /* CurrentMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010431B0D973E00EB1ED5 /* CurrentMapViewController.m */; };
 		B0F010BC1B0D973E00EB1ED5 /* PlacemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F010451B0D973E00EB1ED5 /* PlacemarkViewController.m */; };
 		B0F010BD1B0D973E00EB1ED5 /* CurrentAddress-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F010461B0D973E00EB1ED5 /* CurrentAddress-Info.plist */; };
 		B0F011001B0D973F00EB1ED5 /* CurrentAddress_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F010AE1B0D973E00EB1ED5 /* CurrentAddress_Main.storyboard */; };
-		B0F0110E1B0D9AE700EB1ED5 /* QuickContacts-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F0110D1B0D9AE700EB1ED5 /* QuickContacts-Info.plist */; };
 		B0F012091B0D9B5E00EB1ED5 /* MapSearchMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F011141B0D9B5E00EB1ED5 /* MapSearchMapViewController.m */; };
 		B0F0120A1B0D9B5E00EB1ED5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F011161B0D9B5E00EB1ED5 /* MyTableViewController.m */; };
 		B0F0120B1B0D9B5E00EB1ED5 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F011181B0D9B5E00EB1ED5 /* PlaceAnnotation.m */; };
@@ -84,8 +81,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B08A6AC01B141A6000E4D774 /* QuickContactsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickContactsAppDelegate.h; sourceTree = "<group>"; };
+		B08A6AC11B141A6000E4D774 /* QuickContactsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickContactsAppDelegate.m; sourceTree = "<group>"; };
+		B08A6AC21B141A6000E4D774 /* QuickContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickContactsViewController.h; sourceTree = "<group>"; };
+		B08A6AC31B141A6000E4D774 /* QuickContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickContactsViewController.m; sourceTree = "<group>"; };
+		B08A6ACF1B141A9300E4D774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = QuickContacts.strings; sourceTree = "<group>"; };
+		B08A6AD11B141A9300E4D774 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = QuickContacts_Main.storyboard; sourceTree = "<group>"; };
+		B08A6AD61B141AA800E4D774 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = QuickContacts.strings; sourceTree = "<group>"; };
+		B08A6ADA1B141AC000E4D774 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = QuickContacts.strings; sourceTree = "<group>"; };
 		B0EE5B7F1B0EC687003EC168 /* FamilyGurdian.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FamilyGurdian.entitlements; sourceTree = "<group>"; };
-		B0EE5B861B0ECC5B003EC168 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = QuickContacts_Main.storyboard; sourceTree = "<group>"; };
 		B0EE5B891B0ECC9B003EC168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/FamilyGurdian.strings; sourceTree = "<group>"; };
 		B0EE5B8B1B0ECD82003EC168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FamilyGurdian.strings; sourceTree = "<group>"; };
 		B0EE5B8C1B0ECD8E003EC168 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/FamilyGurdian.strings; sourceTree = "<group>"; };
@@ -138,11 +142,7 @@
 		B0F0101D1B0D935300EB1ED5 /* FamilyGurdianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyGurdianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F010221B0D935300EB1ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F010231B0D935300EB1ED5 /* FamilyGurdianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyGurdianTests.m; sourceTree = "<group>"; };
-		B0F0102E1B0D93C300EB1ED5 /* QuickContactsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickContactsAppDelegate.h; path = ../QuickContacts/Classes/QuickContactsAppDelegate.h; sourceTree = "<group>"; };
-		B0F010301B0D93C300EB1ED5 /* QuickContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickContactsViewController.h; path = ../QuickContacts/Classes/QuickContactsViewController.h; sourceTree = "<group>"; };
-		B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickContactsViewController.m; path = ../QuickContacts/Classes/QuickContactsViewController.m; sourceTree = "<group>"; };
-		B0F010341B0D943F00EB1ED5 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Menu.plist; path = ../QuickContacts/Menu.plist; sourceTree = "<group>"; };
-		B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickContactsAppDelegate.m; path = ../QuickContacts/Classes/QuickContactsAppDelegate.m; sourceTree = "<group>"; };
+		B0F010341B0D943F00EB1ED5 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = Menu.plist; path = QuickContacts/Menu.plist; sourceTree = "<group>"; };
 		B0F010421B0D973E00EB1ED5 /* CurrentMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentMapViewController.h; sourceTree = "<group>"; };
 		B0F010431B0D973E00EB1ED5 /* CurrentMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentMapViewController.m; sourceTree = "<group>"; };
 		B0F010441B0D973E00EB1ED5 /* PlacemarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacemarkViewController.h; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		B0F010B51B0D973E00EB1ED5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B0F010B61B0D973E00EB1ED5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B0F010B71B0D973E00EB1ED5 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		B0F0110D1B0D9AE700EB1ED5 /* QuickContacts-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuickContacts-Info.plist"; path = "../QuickContacts/QuickContacts-Info.plist"; sourceTree = "<group>"; };
+		B0F0110D1B0D9AE700EB1ED5 /* QuickContacts-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "QuickContacts-Info.plist"; path = "QuickContacts/QuickContacts-Info.plist"; sourceTree = "<group>"; };
 		B0F011131B0D9B5E00EB1ED5 /* MapSearchMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapSearchMapViewController.h; sourceTree = "<group>"; };
 		B0F011141B0D9B5E00EB1ED5 /* MapSearchMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapSearchMapViewController.m; sourceTree = "<group>"; };
 		B0F011151B0D9B5E00EB1ED5 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
@@ -216,6 +216,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B08A6ABF1B141A6000E4D774 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6AC01B141A6000E4D774 /* QuickContactsAppDelegate.h */,
+				B08A6AC11B141A6000E4D774 /* QuickContactsAppDelegate.m */,
+				B08A6AC21B141A6000E4D774 /* QuickContactsViewController.h */,
+				B08A6AC31B141A6000E4D774 /* QuickContactsViewController.m */,
+			);
+			name = Classes;
+			path = QuickContacts/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		B08A6ACD1B141A9300E4D774 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6ACE1B141A9300E4D774 /* QuickContacts.strings */,
+				B08A6AD01B141A9300E4D774 /* QuickContacts_Main.storyboard */,
+			);
+			name = en.lproj;
+			path = QuickContacts/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		B08A6AD41B141AA800E4D774 /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6AD51B141AA800E4D774 /* QuickContacts.strings */,
+			);
+			name = ja.lproj;
+			path = QuickContacts/ja.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		B08A6AD81B141AC000E4D774 /* zh.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6AD91B141AC000E4D774 /* QuickContacts.strings */,
+			);
+			name = zh.lproj;
+			path = QuickContacts/zh.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
 		B0EE5B7E1B0DB7D4003EC168 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,37 +370,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B0F0102D1B0D93C300EB1ED5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B0F0102E1B0D93C300EB1ED5 /* QuickContactsAppDelegate.h */,
-				B0F010371B0D950D00EB1ED5 /* QuickContactsAppDelegate.m */,
-				B0F010301B0D93C300EB1ED5 /* QuickContactsViewController.h */,
-				B0F010311B0D93C300EB1ED5 /* QuickContactsViewController.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		B0F010391B0D951A00EB1ED5 /* QuickContacts */ = {
 			isa = PBXGroup;
 			children = (
-				B0F0102D1B0D93C300EB1ED5 /* Classes */,
-				B0F0103A1B0D961800EB1ED5 /* en.lproj */,
+				B08A6ABF1B141A6000E4D774 /* Classes */,
+				B08A6AD81B141AC000E4D774 /* zh.lproj */,
+				B08A6AD41B141AA800E4D774 /* ja.lproj */,
+				B08A6ACD1B141A9300E4D774 /* en.lproj */,
 				B0F010341B0D943F00EB1ED5 /* Menu.plist */,
 				B0F0110D1B0D9AE700EB1ED5 /* QuickContacts-Info.plist */,
 				B0EE5B921B0ECE18003EC168 /* QuickContacts.strings */,
 			);
 			name = QuickContacts;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		B0F0103A1B0D961800EB1ED5 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				B0EE5B851B0ECC5B003EC168 /* QuickContacts_Main.storyboard */,
-			);
-			name = en.lproj;
-			path = ../QuickContacts/en.lproj;
 			sourceTree = "<group>";
 		};
 		B0F0103E1B0D973E00EB1ED5 /* CurrentAddress */ = {
@@ -530,7 +552,6 @@
 				B0EE5BCE1B0F2115003EC168 /* Icon-Spotlight-40.png in Resources */,
 				B0EE5BE01B0F35D6003EC168 /* Icon@2x.png in Resources */,
 				B0EE5BC61B0F2115003EC168 /* Icon-76.png in Resources */,
-				B0EE5B871B0ECC5B003EC168 /* QuickContacts_Main.storyboard in Resources */,
 				B0EE5BD31B0F2115003EC168 /* iTunesArtwork in Resources */,
 				B0EE5BC71B0F2115003EC168 /* Icon-76@2x.png in Resources */,
 				B0F012AD1B0D9B5F00EB1ED5 /* MapSearch_Default.png in Resources */,
@@ -538,12 +559,11 @@
 				B0EE5BC51B0F2115003EC168 /* Icon-72@2x.png in Resources */,
 				B0F012A81B0D9B5F00EB1ED5 /* MapSearch_Default-568h@2x.png in Resources */,
 				B0EE5BCB1B0F2115003EC168 /* Icon-Small.png in Resources */,
-				B0F010131B0D935300EB1ED5 /* Main.storyboard in Resources */,
 				B0F012A91B0D9B5F00EB1ED5 /* MapSearch_Default-Landscape.png in Resources */,
 				B0EE5BCF1B0F2115003EC168 /* Icon-Spotlight-40@2x.png in Resources */,
 				B0EE5BAD1B0F1FA7003EC168 /* Icon-60@2x.png in Resources */,
-				B0F0110E1B0D9AE700EB1ED5 /* QuickContacts-Info.plist in Resources */,
 				B0F012AC1B0D9B5F00EB1ED5 /* MapSearch_Default-Portrait@2x.png in Resources */,
+				B08A6AD31B141A9300E4D774 /* QuickContacts_Main.storyboard in Resources */,
 				B0EE5BD01B0F2115003EC168 /* Icon-Spotlight-40@3x.png in Resources */,
 				B0EE5B8A1B0ECC9B003EC168 /* FamilyGurdian.strings in Resources */,
 				B0F010BD1B0D973E00EB1ED5 /* CurrentAddress-Info.plist in Resources */,
@@ -554,9 +574,7 @@
 				B0F012A61B0D9B5F00EB1ED5 /* MapSerch_Main.storyboard in Resources */,
 				B0EE5BC81B0F2115003EC168 /* Icon-76@3x.png in Resources */,
 				B0EE5BCA1B0F2115003EC168 /* Icon-Small-50@2x.png in Resources */,
-				B0F010351B0D943F00EB1ED5 /* Menu.plist in Resources */,
 				B0EE5BAF1B0F1FBA003EC168 /* Icon-60@3x.png in Resources */,
-				B0F010181B0D935300EB1ED5 /* LaunchScreen.xib in Resources */,
 				B0EE5BD11B0F2115003EC168 /* Icon.png in Resources */,
 				B0EE5BC41B0F2115003EC168 /* Icon-72.png in Resources */,
 				B0F010151B0D935300EB1ED5 /* Images.xcassets in Resources */,
@@ -568,6 +586,7 @@
 				B0EE5BC91B0F2115003EC168 /* Icon-Small-50.png in Resources */,
 				B0EE5B981B0ECE60003EC168 /* CurrentAddress.strings in Resources */,
 				B0F012AF1B0D9B5F00EB1ED5 /* MapSearch-Info.plist in Resources */,
+				B08A6AD21B141A9300E4D774 /* QuickContacts.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,16 +606,16 @@
 			files = (
 				B0F010101B0D935300EB1ED5 /* SecondViewController.m in Sources */,
 				B0F0120A1B0D9B5E00EB1ED5 /* MyTableViewController.m in Sources */,
+				B08A6AC41B141A6000E4D774 /* QuickContactsAppDelegate.m in Sources */,
+				B08A6AC51B141A6000E4D774 /* QuickContactsViewController.m in Sources */,
 				B0F0100A1B0D935300EB1ED5 /* AppDelegate.m in Sources */,
 				B0F0100D1B0D935300EB1ED5 /* ENXMoreViewController.m in Sources */,
 				B0F010BB1B0D973E00EB1ED5 /* CurrentMapViewController.m in Sources */,
 				B0F010071B0D935300EB1ED5 /* main.m in Sources */,
-				B0F010331B0D93C300EB1ED5 /* QuickContactsViewController.m in Sources */,
 				B0F0120B1B0D9B5E00EB1ED5 /* PlaceAnnotation.m in Sources */,
 				B0F012091B0D9B5E00EB1ED5 /* MapSearchMapViewController.m in Sources */,
 				B0F010BC1B0D973E00EB1ED5 /* PlacemarkViewController.m in Sources */,
 				B0EE5BAB1B0EF7BF003EC168 /* ENXCurrentViewController.m in Sources */,
-				B0F010381B0D950D00EB1ED5 /* QuickContactsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,12 +638,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0EE5B851B0ECC5B003EC168 /* QuickContacts_Main.storyboard */ = {
+		B08A6ACE1B141A9300E4D774 /* QuickContacts.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0EE5B861B0ECC5B003EC168 /* en */,
+				B08A6ACF1B141A9300E4D774 /* en */,
+			);
+			name = QuickContacts.strings;
+			sourceTree = "<group>";
+		};
+		B08A6AD01B141A9300E4D774 /* QuickContacts_Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A6AD11B141A9300E4D774 /* en */,
 			);
 			name = QuickContacts_Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B08A6AD51B141AA800E4D774 /* QuickContacts.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A6AD61B141AA800E4D774 /* ja */,
+			);
+			name = QuickContacts.strings;
+			sourceTree = "<group>";
+		};
+		B08A6AD91B141AC000E4D774 /* QuickContacts.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A6ADA1B141AC000E4D774 /* zh */,
+			);
+			name = QuickContacts.strings;
 			sourceTree = "<group>";
 		};
 		B0EE5B881B0ECC9B003EC168 /* FamilyGurdian.strings */ = {
