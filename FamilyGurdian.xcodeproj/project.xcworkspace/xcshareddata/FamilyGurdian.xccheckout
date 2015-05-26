@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B0DD1E07-A025-4B67-98D4-D695E4A68BCF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FamilyGurdian</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>94055EABA2386FBCF75D9F5423927F50B3F81515</key>
+		<string>https://github.com/hq7781/FamilyGurdian.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FamilyGurdian.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>94055EABA2386FBCF75D9F5423927F50B3F81515</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hq7781/FamilyGurdian.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>94055EABA2386FBCF75D9F5423927F50B3F81515</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94055EABA2386FBCF75D9F5423927F50B3F81515</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FamilyGurdian</string>
+		</dict>
+	</array>
+</dict>
+</plist>
